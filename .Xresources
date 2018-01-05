@@ -1,0 +1,40 @@
+
+! hard contrast: *background: #1d2021
+*VT100*background: #282828
+! soft contrast: *background: #32302f
+*VT100*foreground: #ebdbb2
+! Black + DarkGrey
+*VT100*color0:  #282828
+*VT100*color8:  #928374
+! DarkRed + Red
+*VT100*color1:  #cc241d
+*VT100*color9:  #fb4934
+! DarkGreen + Green
+*VT100*color2:  #98971a
+*VT100*color10: #b8bb26
+! DarkYellow + Yellow
+*VT100*color3:  #d79921
+*VT100*color11: #fabd2f
+! DarkBlue + Blue
+*VT100*color4:  #458588
+*VT100*color12: #83a598
+! DarkMagenta + Magenta
+*VT100*color5:  #b16286
+*VT100*color13: #d3869b
+! DarkCyan + Cyan
+*VT100*color6:  #689d6a
+*VT100*color14: #8ec07c
+! LightGrey + White
+*VT100*color7:  #a89984
+*VT100*color15: #ebdbb2
+
+UXterm*saveLines: 4096
+!UXTerm*faceName: Monaco for Powerline
+UXTerm*faceName: Meslo LG M for Powerline
+UXTerm*faceSize: 12
+UXterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+UXterm*termName: xterm-256color
+UXterm*eightBitInput: false
+
+! Only the clipboard is shared through virtualbox
+UXTerm*selectToClipboard: true
